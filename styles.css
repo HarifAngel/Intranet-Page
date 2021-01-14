@@ -25,3 +25,19 @@
      border-left: 60px solid transparent;
      border-bottom: 16px solid transparent;
 }
+.triangulo-equilatero-bottom-rrigth {
+     width: 0;
+     height: 0;
+     border-right: 60px solid #333;
+     border-top: 16px solid transparent;
+     border-left: 60px solid transparent;
+     border-bottom: 16px solid #333;
+}
+.triangulo-equilatero-bottom-lleft {
+     width: 0;
+     height: 0;
+     border-right: 60px solid transparent;
+     border-top: 16px solid #333;
+     border-left: 60px solid #333;
+     border-bottom: 16px solid transparent;
+}
