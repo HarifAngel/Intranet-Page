@@ -1,0 +1,12 @@
+.menu{
+	background: #000;
+}
+.menuTitle{
+	color: #ffff
+}
+#parallelogram {
+    width: 200px;
+    height: 500px;
+    background: red;
+    transform: skew(20deg);
+}
