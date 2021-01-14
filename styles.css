@@ -4,9 +4,24 @@
 .menuTitle{
 	color: #ffff
 }
-#parallelogram {
-    width: 200px;
-    height: 500px;
-    background: red;
-    transform: skew(20deg);
+#rectangle {
+  height: 500px;
+  width: 120px;
+  background-color: #333;
+}
+.triangulo-equilatero-bottom-left {
+     width: 0;
+     height: 0;
+     border-right: 60px solid transparent;
+     border-top: 16px solid transparent;
+     border-left: 60px solid #333;
+     border-bottom: 16px solid #333;
+}
+.triangulo-equilatero-bottom-rigth {
+     width: 0;
+     height: 0;
+     border-right: 60px solid #333;
+     border-top: 16px solid #333;
+     border-left: 60px solid transparent;
+     border-bottom: 16px solid transparent;
 }
