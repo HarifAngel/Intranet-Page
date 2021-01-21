@@ -1,12 +1,34 @@
-.menu{
-	background: #000;
+.guinda{
+	background: #6c132b;
 }
-.menuTitle{
-	color: #ffff
+.imageStyle{
+	background: black
+}
+.listPadding{
+	padding-left: 8px;
+	position: relative;
+}
+.leftBarOption{
+	margin-left: -17px;
+}
+.verticalCenter{
+	display: flex;
+	align-items: center;
+}
+.stroke {
+	padding-bottom: 3px;
+	padding-left: 7px;
+	color: white;
+	font-family: Verdana Pro;
+	font-size: 24px;
+	letter-spacing: 1px;
+}
+.menu{
+	background: #6c132b;
 }
 #rectangle {
-  height: 500px;
-  width: 120px;
+  height: 533px;
+  width: 100px;
   background-color: #333;
 }
 .triangulo-equilatero-bottom-left {
@@ -28,16 +50,40 @@
 .triangulo-equilatero-bottom-rrigth {
      width: 0;
      height: 0;
-     border-right: 60px solid #333;
+     border-right: 50px solid #333;
      border-top: 16px solid transparent;
-     border-left: 60px solid transparent;
+     border-left: 50px solid transparent;
      border-bottom: 16px solid #333;
 }
 .triangulo-equilatero-bottom-lleft {
      width: 0;
      height: 0;
-     border-right: 60px solid transparent;
+     border-right: 50px solid transparent;
      border-top: 16px solid #333;
-     border-left: 60px solid #333;
+     border-left: 50px solid #333;
      border-bottom: 16px solid transparent;
 }
+ .gg-border-all {
+ 	transform: scale(var(--ggs,1));
+}
+
+.gg-border-all,
+.gg-border-all::before {
+ 	box-sizing: border-box;
+ 	position: relative;
+ 	display: block;
+ 	width: 14px;
+ 	height: 14px;
+}
+
+.gg-border-all::before {
+ 	content: "";
+ 	position: absolute;
+ 	border: 3px solid;
+ 	bottom: 0;
+ 	left: 0
+} 
+ 
+
+
+
