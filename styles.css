@@ -1,8 +1,5 @@
-.guinda{
-	background: #6c132b;
-}
-.imageStyle{
-	background: black
+ul,li{
+	list-style-type: none; 
 }
 .listPadding{
 	padding-left: 8px;
@@ -20,7 +17,7 @@
 	padding-left: 7px;
 	color: white;
 	font-family: Verdana Pro;
-	font-size: 24px;
+	font-size: 27px;
 	letter-spacing: 1px;
 }
 .menu{
@@ -82,7 +79,16 @@
  	border: 3px solid;
  	bottom: 0;
  	left: 0
-} 
+}
+.gg-shape-square {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 16px;
+    height: 16px;
+    border: 3px solid
+}
  
 
 
